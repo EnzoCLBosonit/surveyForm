@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">Camping Pinares</h1>
+        <p id="description">Encuesta de satisfacción</p>
+    </header>
+    <form id="survey-form">
+        <div class="survey-data">
+            <label id="name-label">Nombre</label>
+            <input id="name" type="text" placeholder="Introduce tu nombre...">    
+            <label id="email-label">Correo electrónico</label>
+            <input id="email" type="email" placeholder="Introduce tu email...">    
+            <label id="number-label">¿Cuántos dias ha durado su estancia?</label>
+            <input id="number" type="number" min="1" max="31" placeholder="Introduce un numero entre 1 y 31">
+        </div>        
+        <div class="survey-data">
+            <p>¿En que zona ha acampado?</p>
+            <select id="dropdown" type="dropdown">
+                <option disabled selected value>Selecciona una opción...</option>
+                <option value="opcion1">Zona bosque</option>
+                <option value="opcion2">Zona playa</option>
+            </select>
+        </div>
+        <div class="survey-data">
+            <p>¿Ha usado los servicios de excursiones?</p>
+            <label>
+                <input name="radio-choice" type="radio" value="si" class="input-radio">Sí
+            </label>
+            <label>
+                <input name="radio-choice" type="radio" value="no" class="input-radio">No
+            </label>
+            <label>
+                <input name="radio-choice" type="radio" value="parcialmente" class="input-radio">Parcialmente
+            </label>
+        </div>
+        <div class="survey-data">
+            <p>¿Ha usado los servicios de alimentación?</p>
+            <label>
+                <input name="checkbox-choice" type="checkbox" value="desayuno" class="input-checkbox">Desayuno
+            </label>
+            <label>
+                <input name="checkbox-choice" type="checkbox" value="comida" class="input-checkbox">Comida
+            </label>
+            <label>
+                <input name="checkbox-choice" type="checkbox" value="cena" class="input-checkbox">Cena
+            </label>
+            <label>
+                <input name="checkbox-choice" type="checkbox" value="propiacomida" class="input-checkbox">He llevado mi propia comida
+            </label>
+        </div>
+        <div class="survey-data">
+            <p>Sugerencias</p>
+            <textarea id="sugerencias" placeholder="Escribe aqui tus sugerencias..."></textarea>
+        </div>
+        <div class="submit-button">
+            <input id="submit" type="submit">
+        </div>
+    </form>
+</body>
+</html>

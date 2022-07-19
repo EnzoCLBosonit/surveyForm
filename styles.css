@@ -1,0 +1,53 @@
+body{
+    font-size: 20px;        
+    font-family: monospace;
+    background-color:#4D717F;
+}
+#header{
+    display:flex;
+    flex-flow: column;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #6B9051;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.survey-data{
+    display:flex;
+    flex-flow: column;
+    text-align: left;
+    align-items: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color:#EBEEDD;
+}
+label{
+    margin-bottom:5px;
+    margin-top: 10px;
+}
+p{
+    margin-bottom:5px;
+    margin-top: 10px;   
+}
+
+.submit-button{
+    display:flex;
+    flex-flow: column;
+    text-align: left;
+    align-items: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:#142329;
+}
+#submit{
+    border-radius: 50px;
+    margin: 10px;
+    padding:10px;
+}
